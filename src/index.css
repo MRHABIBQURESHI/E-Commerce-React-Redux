@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+
+body {
+    @apply bg-white text-black;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-white;
+  }
+  
+  /* Import Slick Carousel styles */
+
